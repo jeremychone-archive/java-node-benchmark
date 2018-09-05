@@ -1,0 +1,25 @@
+# Mac stuff, ignore
+.DS_Store
+
+# Eclipse stuff, should be for each developer, so, ignore
+.vscode
+
+# maven target (we definitely do not want this one in git)
+target/
+
+# remove node stuff
+node_modules
+
+# by convention, ignore all files/folders starting with ~*
+~*
+
+# this will be the jetty....jar
+*.jar
+
+# this is to avoid the netty- folder
+netty-*
+
+
+# remove intellij stuff
+*.iml
+.idea/
